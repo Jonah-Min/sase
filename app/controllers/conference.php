@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Conference extends CI_Controller {
+class NERC2016 extends CI_Controller {
 
   public function index()
   {

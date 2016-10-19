@@ -8,7 +8,7 @@
 <div class="container" id="mentorship">
 <div class="row">
   <div class="small-11 small-centered medium-5 medium-uncentered columns">
-    <h3>Undergraduate Mentorship</h3>
+    <h3>SASE Pals</h3>
     <p>
       Piloted during the Fall 2014 semester, our program is centered
       on building a strong community between members. This one semester program
@@ -21,7 +21,7 @@
 </div>
 </div>
 
-<div class="container" id="innoservice">
+<!-- <div class="container" id="innoservice">
 <div class="row clearfix">
   <div class="small-11 small-centered medium-5 medium-uncentered columns right">
     <h3>InnoService</h3>
@@ -35,3 +35,4 @@
   </div>
 </div>
 </div>
+ -->
