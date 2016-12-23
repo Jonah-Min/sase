@@ -1,0 +1,291 @@
+html, body {
+  height: 300%;
+  margin: 0 0 0 0;
+  background-color: #36C9C6;
+}
+
+.white_content {
+  display: none;
+  position: fixed;
+  margin-left: -90px;
+  margin-top: -45px;
+  top: 25%;
+  left: 25%;
+  width: 63%;
+  /*width: 850px;*/
+  height: 400px;
+  padding: 16px;
+  border: 10px solid #393E41;
+  background-color: white;
+  z-index: 1002;
+  overflow: auto;
+      -webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);
+    -moz-box-shadow:0 0 10px rgba(0,0,0,0.4); 
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+.jonahs_special_white_content {
+  background-size: 100% 100%;
+  background-image: url('sase/pikachu.gif');
+  display: none;
+  position: fixed;
+  margin-left: -90px;
+  margin-top: -45px;
+  top: 25%;
+  left: 25%;
+  width: 63%;
+  /*width: 850px;*/
+  height: 400px;
+  padding: 16px;
+  border: 10px solid #36c9c6;
+  background-color: white;
+  z-index: 1002;
+  overflow: auto;
+      -webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);
+    -moz-box-shadow:0 0 10px rgba(0,0,0,0.4);
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+.jonahs_special_white_content .light-desc {
+	font-size: 15pt;
+}
+
+#disclaimer {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 25pt;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-shadow: -1px 0 #393E41, 0 1px #393E41, 1px 0 #393E41, 0 -1px #393E41;
+}
+
+.email {
+  margin-top: -30px;
+  font-size: 14pt;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.advice {
+  margin-top: -5px;
+  font-size: 14pt;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+li {
+	margin-left: 20px;
+}
+
+.black_overlay {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 900%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+
+#checkbox-wrapper {
+  width: 265px;
+  height: 100%;
+  padding-left: 15px;
+  float: left;
+  background-color: #ED6A5A;
+}
+
+.exit {
+  float: right;
+  font-size: 25pt;
+  margin-top: -13px;
+  margin-left: 50px;
+  position: fixed;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+  font-family: 'Lato', sans-serif;
+}
+
+.exit:hover {
+  cursor: pointer;
+  color: #acacac;
+}
+
+#profile-wrapper {
+  margin-top: 20px;
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+}
+
+.profile:hover {
+  border-color: #8D99AE;
+}
+
+.profile:hover img {
+  border-color: #8D99AE;
+}
+
+.profile {
+  float: left;
+  width: 350px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  border: 5px solid #393E41;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+.label {
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+  color: #F4F4F8;
+}
+
+.label:hover {
+  cursor: pointer;
+}
+
+.img-div {
+  width: 175px;
+  height: 175px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titles {
+  text-align: left;
+  font-size: 17pt;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.toTheLeft {
+  text-align: left;
+  margin-left: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+  color: #393E41;
+}
+
+.name {
+  margin-top: 15px;
+  margin-bottom: -5px;
+  font-size: 22pt;
+  font-family: 'Lato', sans-serif;
+  color: #393E41;
+}
+
+.light-desc {
+	font-size: 15pt;
+}
+
+.light-exp {
+        margin: 0;
+	text-align: left;
+	font-size: 13pt;
+}
+
+.light-img {
+  border: 5px solid #393E41;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light-side {
+  width: 200px;
+  height: 325px;
+  float: left;
+  margin-bottom: 40px;
+}
+
+.circle {
+  margin-top: 12px;
+  width: 175px;
+  height: 175px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: solid 5px #393E41;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+.light-info {
+  margin-left: 40px;
+  width: 70%;
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13pt;
+}
+
+.light-name {
+  margin-top: 10px;
+  font-size: 22pt;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.light-headers {
+  text-decoration: underline;
+  margin-top: -5px;
+  margin-bottom: -10px;
+  font-size: 18pt;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.secret {
+  position: relative;
+  bottom: 0;
+}
+
+#gooooooosh {
+  height: 150px;
+  width: 100%;
+  margin-top: 410%;
+}
+
+h1 {
+  text-shadow: -1px 0 #393E41, 0 1px #393E41, 1px 0 #393E41, 0 -1px #393E41;
+  padding-top: 10px;
+  font-size: 42pt;
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  text-align: center;
+  margin-bottom: -5px;
+}
+
+h3 {
+  color: #F4F4F8;
+  font-size: 24pt;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+i {
+  text-align: center;
+}

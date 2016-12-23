@@ -192,7 +192,7 @@ $config['log_threshold'] = 1;
 | application/logs/ folder. Use a full server path with trailing slash.
 |
 */
-$config['log_path'] = '/var/www/html/sase/app/logs/';
+$config['log_path'] = '';
 
 
 /*
@@ -226,7 +226,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '$saSSyhusky5$';
+$config['encryption_key'] = '';
 
 /*
 |--------------------------------------------------------------------------

@@ -12,5 +12,5 @@
  * api_endpoint
  */
 
-$config['api_key'] = '07b21901d1e59a2b57e91b2850e44aaf-us8';
-$config['api_endpoint'] = 'https://<dc>.api.mailchimp.com/2.0';
+$config['api_key'] = '';
+$config['api_endpoint'] = '';
