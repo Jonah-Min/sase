@@ -2,7 +2,7 @@
     <script src="<?php echo base_url(); ?>public/js/scripts/jquery-3.0.0.js"></script>
     <script   src="https://code.jquery.com/color/jquery.color-2.1.2.js"   integrity="sha256-1Cn7TdfHiMcEbTuku97ZRSGt2b3SvZftEIn68UMgHC8="   crossorigin="anonymous"></script>
     <script src="<?php echo base_url(); ?>public/js/controllers/filtering.js"></script>
-    <link rel='stylesheet' type='text/css' href="<?php echo base_url(); ?>public/css/idk.css">
+    <link rel='stylesheet' type='text/css' href="<?php echo base_url(); ?>public/css/pals.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
