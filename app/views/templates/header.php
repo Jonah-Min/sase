@@ -49,6 +49,7 @@
               <li class="<?=active_nav('sponsors')?>"><a href="<?=base_url()?>sponsors">Sponsors</a></li>
               <li class="<?=active_nav('about')?>"><a href="<?=base_url()?>about">About</a></li>
               <li class="<?=active_nav('contact')?>"><a href="<?=base_url()?>contact">Contact</a></li>
+              <li class="<?=active_nav('pals')?>"><a href="<?=base_url()?>pals">SASE Pals</a></li>
             </ul>
           </section>
         </nav>
@@ -64,6 +65,7 @@
         <li class="<?=active_nav('sponsors')?>"><a href="<?=base_url()?>sponsors">Sponsors</a></li>
         <li class="<?=active_nav('about')?>"><a href="<?=base_url()?>about">About</a></li>
         <li class="<?=active_nav('contact')?>"><a href="<?=base_url()?>contact">Contact</a></li>
+        <li class="<?=active_nav('pals')?>"><a href="<?=base_url()?>pals">SASE Pals</a></li>
       </ul>
     </aside>
 <!-- end header -->

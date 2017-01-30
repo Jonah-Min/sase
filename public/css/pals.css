@@ -197,7 +197,7 @@ li {
 }
 
 .light-exp {
-        margin: 0;
+  margin: 0;
 	text-align: left;
 	font-size: 13pt;
 }
@@ -212,7 +212,6 @@ li {
 
 .light-side {
   width: 200px;
-  height: 325px;
   float: left;
   margin-bottom: 40px;
 }

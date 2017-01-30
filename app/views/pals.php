@@ -615,7 +615,7 @@ Fun Fact: I have a senior diploma in Kathak! (North-Indian classical dance)</p>
 		</div>
         </div>
 
-	<div class="profile" data-id="Jonah" data-category="CS artmin 2019 0" onclick="document.getElementById('lightJonah').style.display='block'; document.getElementById('fade').style.display='block'">
+	<div class="profile" data-id="Jonah" data-category="CS artmin 2019 1" onclick="document.getElementById('lightJonah').style.display='block'; document.getElementById('fade').style.display='block'">
                 <div class='img-div'><img class='circle' src='<?php echo base_url(); ?>public/palpics/jonah.jpg'></div><br>
                 <p class='name'><strong>Jonah Min</strong><br></p>
                         <p class='toTheLeft'><strong>Major: </strong>Computer Science<br>
@@ -640,6 +640,7 @@ Fun Fact: I have a senior diploma in Kathak! (North-Indian classical dance)</p>
                         <p class='light-desc'> Majors, Classes, getting involved in clubs, travelling around Boston, speaking up </p>
 		        <p class='light-headers'> Work Experience </p>
                         <ul>
+                        		<li><p class='light-exp'><strong>Rue La La:&nbsp;</strong><i>Full Stack Engineer</i></p></li>
                                 <li><p class='light-exp'><strong>College of Computer and Information Science:&nbsp;</strong><i>Junior Sys Admin</i></p></li>
                                 <li><p class='light-exp'><strong>University of Pennsylvania:&nbsp;</strong><i>Student Research Assistant</i></p></li>
                         </ul>
@@ -647,6 +648,43 @@ Fun Fact: I have a senior diploma in Kathak! (North-Indian classical dance)</p>
                         <p class='light-desc'>Upperclassmen Rep of SASE 2016</p>
 			<p class='light-headers'> Fun Facts! </p>
                         <p class='light-desc'> I made this website so I have too much power. I am upperclassmen rep for SASE, I have visited Korea every other year of my life, I can do a few different flips (though I haven't practiced in a while). I love drawing, cooking, and playing video games (any Osu! Players out there??)</p>
+                </div>
+        </div>
+
+  	<div id='fade' class='black_overlay'></div>
+
+	<div class="profile" data-id="Joanne" data-category="EE CE Mathmin 2019 1" onclick="document.getElementById('lightJoanne').style.display='block'; document.getElementById('fade').style.display='block'">
+                <div class='img-div'><img class='circle' src='<?php echo base_url(); ?>public/palpics/joanne.jpg'></div><br>
+                <p class='name'><strong>Joanne Truong</strong><br></p>
+                        <p class='toTheLeft'><strong>Major: </strong>Electrical and Computer Engineering<br>
+                        <strong>Minor: </strong>Mathematics<br>
+                        <strong>Graduation Year: </strong>2019<br>
+                        <strong>Co-ops: </strong>1<br>
+                        <strong>Email: </strong>truong.j@husky.neu.edu<br></p>
+                </div>
+        </div>
+
+	<div id="lightJoanne" class="white_content">
+                <div class='light-side'>
+                        <img class='light-img' src='<?php echo base_url(); ?>public/palpics/joanne.jpg'>
+                        <p class='light-name'>Jonah Min</p>
+			<p class='email'>min.jo@husky.neu.edu<br></p>
+                        <p class='advice'><i>Staying motivated and hard work is the best way to succeed. Even if things seem difficult now, nothing is impossible if you work hard enough. </i></p>
+                </div>
+                <div class='light-info'>
+                        <p class='light-headers'> Motivations </p>
+                        <p class='light-desc'> Looking back at my past 3 years at Northeastern, I realized how much I've grown. This growth was thanks to SASE and the amazing friends I've met along the way. Although I've never formally had a mentor, I've had upperclassmen friends who have generously provided me with their wisdom, and have helped me get to where I am today. I want to pass on what I learned to new members, and help them grow into leaders :D  </p>
+                	<p class='light-headers'> Topics for Advice </p>
+                        <p class='light-desc'> Research (I've done an REU & held a research position for a professor at Northeastern), co-op (even though my co-op experience wasn't the greatest, I now know what questions to ask during the interview/ would give advice on things I wish I had done), balancing school-clubs-eboard-work-research </p>
+		        <p class='light-headers'> Work Experience </p>
+                        <ul>
+                                <li><p class='light-exp'><strong>Boston Engineering:&nbsp;</strong><i>Electrical Engineering Intern</i></p></li>
+                                <li><p class='light-exp'><strong>Worcester Polytechnic Institute:&nbsp;</strong><i>Research Assistant</i></p></li>
+                        </ul>
+                        <p class='light-headers'> Campus Involvment </p>
+                        <p class='light-desc'>Eta Kappa Nu Honor Society, IEEE, Society of Women Engineers</p>
+			<p class='light-headers'> Fun Facts! </p>
+                        <p class='light-desc'> :D I've eaten a whole pizza pie by myself in one sitting, and I casually eat pints of ice cream so hmu if you wanna eat </p>
                 </div>
         </div>
 
