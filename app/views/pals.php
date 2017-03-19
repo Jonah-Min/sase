@@ -10,6 +10,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>SASE Pals!</title>
 
+
 	<script>
 		$(document).ready(function() {
 		(function animate() {
@@ -21,6 +22,7 @@
 		})();
 		});
 	</script>
+
 
 </head>
 <body>
@@ -134,7 +136,7 @@
 
 	<div id="lightCrystal" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/crystal.jpg'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/crystal.jpg'></div>
 			<p class='light-name'>Crystal Rhee</p>
 			<p class='email'>rhee.s@husky.neu.edu<br></p>
 			<p class='advice'><i>"Try everything then organize accordingly."</i></p>
@@ -170,7 +172,7 @@
 
 	<div id="lightLiane" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/liane.jpg'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/liane.jpg'></div>
 			<p class='light-name'>Liane Wong</p>
 			<p class='email'>wong.li@husky.neu.edu<br></p>
 			<p class='advice'><i>"Spread out the things you want to achieve over the entirety of your 4-5 years here. Don't try to manage it all at once."</i></p>
@@ -206,7 +208,7 @@
 
 	<div id="lightAmanda" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/amanda.png'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/amanda.png'></div>
 			<p class='light-name'>Amanda Luken</p>
 			<p class='email'>luken.a@husky.neu.edu<br></p>
                         <p class='advice'><i>"There are 168 hours, or 10,080 minutes, in a week. There is always time to take care of your self through exercise, healthy eating, and finding what makes you happy."</i></p>
@@ -251,7 +253,7 @@
 
 	<div id="lightAndrew" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/andrew.jpg'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/andrew.jpg'></div>
 			<p class='light-name'>Andrew Tu</p>
 			<p class='email'>tu.a@husky.neu.edu<br></p>
                         <p class='advice'><i>"Introspection is the most valuable tool in self-improvement."</i></p>	
@@ -287,7 +289,7 @@
 
 	<div id="lightDang" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/dang.jpg'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/dang.jpg'></div>
 			<p class='light-name'>Dang Nguyen</p>
 			<p class='email'>nguyen.dang@husky.neu.edu<br></p>
                         <p class='advice'><i>"Make the effort to reach out to people, whether to hang out or for advice, because they won't reach out first normally."</i></p>
@@ -322,7 +324,7 @@
 
 	<div id="lightEmily" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/emily.jpg'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/emily.jpg'></div>
 			<p class='light-name'>Emily Greenhaw</p>
 			<p class='email'>greenhaw.e@husky.neu.edu<br></p>
                         <p class='advice'><i>"Keep your options open!  This applies to being flexible to changing your major and to trying new clubs.  Don't feel like you have to commit to something you don't enjoy."</i></p>
@@ -388,7 +390,7 @@
 
 	<div id="lightSpenser" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/spenser.jpg'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/spenser.jpg'></div>
 			<p class='light-name'>Spenser Cheung</p>
 		</div>
 		<div class='light-info'>
@@ -415,7 +417,7 @@
 
 	<div id="lightWen" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/wen.jpg'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/wen.jpg'></div>
 			<p class='light-name'>Wen Li</p>
 			<p class='email'>li.wen1@husky.neu.edu<br></p>
                         <p class='advice'><i>"Don't get too involved in your studies. Although it's important to focus on classes a lot due to the difficult adjustment between high school and college classes, it is important to take a break every so often."</i></p>
@@ -450,7 +452,7 @@
 
 	<div id="lightMeghna" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/meghna.jpg'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/meghna.jpg'></div>
 			<p class='light-name'>Meghna Kuppuraju</p>
 			<p class='email'>huppuraju.m@husky.neu.edu<br></p>
                         <p class='advice'><i>"Try to get involved in things that interest you, even if you have no prior experience and don't be afraid to talk to new people! "</i></p>
@@ -484,7 +486,7 @@
 
 	<div id="lightAkshay" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/akshay.jpg'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/akshay.jpg'></div>
 			<p class='light-name'>Akshay Kaushik</p>
 			<p class='email'>kaushik.a@husky.neu.edu<br></p>
                         <p class='advice'><i>"Just be yourself, try different things whatever you are passionate about, make friends, learn new things and have fun! College is once in a lifetime experience."</i></p>
@@ -519,7 +521,7 @@
 
 	<div id="lightDeborah" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/deborah.jpg'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/deborah.jpg'></div>
 			<p class='light-name'>Deborah Chen</p>
 			<p class='email'>chen.deb@husky.neu.edu<br></p>
                         <p class='advice'><i>"It's ok to not know what you're doing with your life!!! Freshman year is a time to relax and ease into college and not stress about too many things!!!!! "</i></p>
@@ -556,7 +558,7 @@
 
 	<div id="lightJenny" class="white_content">
 		<div class='light-side'>
-			<img class='light-img' src='<?php echo base_url(); ?>public/palpics/jenny.jpg'>
+			<div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/jenny.jpg'></div>
 			<p class='light-name'>Jenny Cheung</p>
 			<p class='email'>cheung.jen@husky.neu.edu<br></p>
                         <p class='advice'><i>"Go to office hours and talk to your TAs/Professors! It is important to make good connections with people! Network early! You might need them for a recommendation in the future!"</i></p>
@@ -591,7 +593,7 @@
         </div>
 	<div id="lightVandana" class="white_content">
                 <div class='light-side'>
-                        <img class='light-img' src='<?php echo base_url(); ?>public/palpics/vandana.jpg'>
+                        <div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/vandana.jpg'></div>
                         <p class='light-name'>Vandana Karan</p>
                         <p class='email'>karan.v@husky.neu.edu<br></p>
                         <p class='advice'><i>"Be open-minded, and give every experience a fighting chance! The more proactive you are, the fewer regrets you'll have :)"</i></p>
@@ -628,7 +630,7 @@ Fun Fact: I have a senior diploma in Kathak! (North-Indian classical dance)</p>
 
 	<div id="lightJonah" class="jonahs_special_white_content">
                 <div class='light-side'>
-                        <img class='light-img' src='<?php echo base_url(); ?>public/palpics/waifu.gif'>
+                        <div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/waifu.gif'></div>
                         <p class='light-name'>Jonah Min</p>
 			<p class='email'>min.jo@husky.neu.edu<br></p>
                         <p class='advice'><i>"We lie loudest when we lie to ourselves" -Eric Hoffer</i></p>
@@ -666,13 +668,13 @@ Fun Fact: I have a senior diploma in Kathak! (North-Indian classical dance)</p>
 
 	<div id="lightJoanne" class="white_content">
                 <div class='light-side'>
-                        <img class='light-img' src='<?php echo base_url(); ?>public/palpics/joanne.jpg'>
-                        <p class='light-name'>Jonah Min</p>
-			<p class='email'>min.jo@husky.neu.edu<br></p>
+                        <div class='image-wrapper'><img class='light-img' src='<?php echo base_url(); ?>public/palpics/joanne.jpg'></div>
+                        <p class='light-name'>Joanne Truong</p>
+			<p class='email'>truong.j@husky.neu.edu<br></p>
                         <p class='advice'><i>Staying motivated and hard work is the best way to succeed. Even if things seem difficult now, nothing is impossible if you work hard enough. </i></p>
                 </div>
                 <div class='light-info'>
-                        <p class='light-headers'> Motivations </p>
+                    <p class='light-headers'> Motivations </p>
                         <p class='light-desc'> Looking back at my past 3 years at Northeastern, I realized how much I've grown. This growth was thanks to SASE and the amazing friends I've met along the way. Although I've never formally had a mentor, I've had upperclassmen friends who have generously provided me with their wisdom, and have helped me get to where I am today. I want to pass on what I learned to new members, and help them grow into leaders :D  </p>
                 	<p class='light-headers'> Topics for Advice </p>
                         <p class='light-desc'> Research (I've done an REU & held a research position for a professor at Northeastern), co-op (even though my co-op experience wasn't the greatest, I now know what questions to ask during the interview/ would give advice on things I wish I had done), balancing school-clubs-eboard-work-research </p>

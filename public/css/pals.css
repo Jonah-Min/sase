@@ -7,7 +7,7 @@ html, body {
 .white_content {
   display: none;
   position: fixed;
-  margin-left: -90px;
+  margin-left: -110px;
   margin-top: -45px;
   top: 25%;
   left: 25%;
@@ -29,7 +29,7 @@ html, body {
   background-image: url('sase/pikachu.gif');
   display: none;
   position: fixed;
-  margin-left: -90px;
+  margin-left: -110px;
   margin-top: -45px;
   top: 25%;
   left: 25%;
@@ -233,7 +233,7 @@ li {
 }
 
 .light-info {
-  margin-left: 40px;
+  margin-left: 25px;
   width: 70%;
   display: inline-block;
   font-family: 'Cormorant Garamond', serif;
@@ -257,6 +257,12 @@ li {
 .secret {
   position: relative;
   bottom: 0;
+}
+
+.image-wrapper {
+  height: 210px;
+  width: 210px;
+  margin-right: 0;
 }
 
 #gooooooosh {
@@ -288,3 +294,32 @@ p {
 i {
   text-align: center;
 }
+
+@media (max-width: 1200px) {
+
+  .white_content {
+    width: 650px;
+  }
+
+  .image-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .light-side {
+    width: 100%;
+  }
+
+  .light-info {
+    width: 100%;
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 734px) {
+  .white_content {
+    margin-left: -172px;
+  }
+}
+
