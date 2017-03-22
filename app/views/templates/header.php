@@ -42,7 +42,7 @@
           </ul>
           <section class="top-bar-section">
             <ul class="right">
-              <li class="<?=active_nav('conference')?>"><a href="<?=base_url()?>conference">Conference</a></li>
+              <li class="<?=active_nav('conference')?>"><a href="<?=base_url()?>conference">NERC2016</a></li>
               <li class="<?=active_nav('events')?>"><a href="<?=base_url()?>events">Events</a></li>
               <li class="<?=active_nav('programs')?>"><a href="<?=base_url()?>programs">Programs</a></li>
               <li class="<?=active_nav('eboard')?>"><a href="<?=base_url()?>eboard">Eboard</a></li>
@@ -58,7 +58,7 @@
     <aside class="left-off-canvas-menu">
       <ul class="off-canvas-list">
         <li><label><a href="<?=base_url()?>">Northeastern SASE</a></label></li>
-        <li class="<?=active_nav('conference')?>"><a href="<?=base_url()?>conference">Conference</a></li>
+        <li class="<?=active_nav('conference')?>"><a href="<?=base_url()?>conference">NERC2016</a></li>
         <li class="<?=active_nav('events')?>"><a href="<?=base_url()?>events">Events</a></li>
         <li class="<?=active_nav('programs')?>"><a href="<?=base_url()?>programs">Programs</a></li>
         <li class="<?=active_nav('eboard')?>"><a href="<?=base_url()?>eboard">Eboard</a></li>
