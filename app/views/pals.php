@@ -10,6 +10,44 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>SASE Pals!</title>
 </head>
+	<script>
+		const pals = [
+			{
+				name: 'Jemin (Jay) Park',
+				major: 'CE CS',
+				grad: 2021,
+				co-ops: 0,
+				email: 'park.jem@husky.neu.edu',
+				motivations: 'During my freshmen year, I had many upperclassmen mentors and friends helping me grow as they guided me through an unfamiliar environment. I would like to give back to the community by becoming a mentor myself and hopefully becoming someone who could help with the growth of an underclassman.',
+				topics: 'Adjusting into an unfamiliar environment, public speaking, becoming part of PAAC, and life in general (lul).',
+				work-exp: [
+					{
+						company: 'CrucialTec Vina Co., Ltd.',
+						role: 'Intern',
+					},
+					{
+						company: 'Aeria Games',
+						role: 'Online Administrator',
+					},
+					{
+						company: 'Greenville Fire Department',
+						role: 'Volunteer Firefighter',
+					},
+					{
+						company: 'Hanoi, Vietnam',
+						role: 'English Tutor',
+					}
+				],
+				involvment: 'Involvement Chair of SASE 2017, PAAC Rep 2017, Mentor in Asian American Students in Action 2017, Asian Student Union, Chinese Student Association, Vietnamese Student Association',
+				fun: 'I hate icebreakers (especially the "FUN FACTS!" part).'
+			}
+		];
+
+		for (let i = 0; i < pals.length; i++) {
+			console.log(pals[i]);
+		}
+	</script>
+</head>
 <body>
 	<div id='checkbox-wrapper'>
 		<div class="profile-wrap">
